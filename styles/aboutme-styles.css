@@ -1,8 +1,15 @@
 #about-me {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-top: 3rem;
+}
+
+#about-me .text-content-container > * {
+  margin-top: 1rem;
 }
 
 #about-me input {
@@ -28,4 +35,15 @@
   border-radius: 100%;
   background-color: #2e2d2d;
   box-shadow: 1px 1px 4px 0 rgba(160, 158, 158, 0.178);
+}
+
+@media only screen and (min-width: 800px) {
+  #about-me {
+    flex-direction: row-reverse;
+  }
+
+  #about-me .text-content-container {
+    text-align: right;
+    margin-left: 2rem;
+  }
 }
