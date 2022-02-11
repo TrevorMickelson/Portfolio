@@ -1,8 +1,7 @@
 #header {
   width: 100%;
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
+  background-color: #2e2d2d;
+  box-shadow: 1px 1px 4px 0 rgba(160, 158, 158, 0.178);
   z-index: 3;
 }
 
@@ -18,11 +17,14 @@
   display: block;
   padding: 20px 20px;
   text-decoration: none;
+  transition: 0.15s ease-in-out;
+  color: white;
 }
 
 #header li a:hover,
 #header .menu-btn:hover {
-  background-color: #f4f4f4;
+  border-radius: 10px;
+  background-color: #383737;
 }
 
 #header .menu {
@@ -43,14 +45,14 @@
   height: 2px;
   width: 18px;
   display: block;
-  background: #333;
+  background: #f2f2f2;
   position: relative;
   transition: 0.2s ease-out;
 }
 
 #header .menu-icon .navicon:before,
 #header .menu-icon .navicon:after {
-  background: #333;
+  background: #f2f2f2;
   content: "";
   display: block;
   height: 100%;
