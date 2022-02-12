@@ -9,6 +9,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  color: var(--white-text-color);
 }
 
 body,
@@ -19,13 +20,17 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--white-text-color);
   background-color: var(--background);
 }
 
-h3 {
+h3,
+p {
   font-weight: normal;
   color: var(--light-gray-text-color);
+}
+
+p {
+  font-size: 20px;
 }
 
 #outer-container {
