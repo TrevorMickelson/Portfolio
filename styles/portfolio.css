@@ -1,0 +1,72 @@
+#portfolio {
+  max-width: 500px;
+  height: 100vh;
+  margin-top: 9rem;
+}
+
+#portfolio #info {
+  width: 50%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#portfolio ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.slide > img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-button {
+  background: none;
+  border: none;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  position: absolute;
+  margin: 12rem 0;
+}
+
+.next {
+  margin-left: 26.8rem;
+}
+
+.carousel-button:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:active {
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+@media (min-width: 48em) {
+  #portfolio {
+    max-width: 1200px;
+    height: 1000px;
+    margin-top: 9rem;
+  }
+
+  .carousel-button {
+    margin: 21.5rem 0;
+  }
+
+  .next {
+    margin-left: 70.6rem;
+  }
+
+  .slide img {
+    width: 1200px;
+    height: 750px;
+  }
+}

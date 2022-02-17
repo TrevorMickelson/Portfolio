@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/header-styles.css" />
     <link rel="stylesheet" href="styles/aboutme-styles.css" />
     <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -47,6 +49,7 @@
         />
       </div>
 
+      <!-- Services -->
       <div id="services">
         <div id="info">
           <h1>My Services</h1>
@@ -92,6 +95,50 @@
             </p>
           </div>
         </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div id="portfolio">
+        <div id="info">
+          <h1>Portfolio</h1>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            eveniet cupiditate, aut quisquam nostrum accusamus!
+          </h3>
+        </div>
+
+        <button type="button" class="carousel-button prev" onclick="slide ('left')">&#8656</button>
+        <button type="button" class="carousel-button next" onclick="slide ('right')">&#8658</button>
+
+        <ul id="carousel">
+          <li class="slide">
+            <img src="assets/clothes_main.png" alt="Clothes Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/clothes_example.png" alt="Clothes Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/clothes_dope.png" alt="Clothes Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/project_2.png" alt="Project 2 Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/project_3_main.png" alt="Project 3 Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/project_3_second.png" alt="Project 3 Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/mcaim_main.png" alt="Mcaim Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/mcaim_second.png" alt="Mcaim Image" />
+          </li>
+          <li class="slide">
+            <img src="assets/contact_example.png" alt="Contact Page" />
+          </li>
+        </ul>
       </div>
     </div>
   </body>
