@@ -2,9 +2,6 @@ const container = document.getElementById('carousel');
 var scrollPosition = 0;
 
 function slide(direction) {
-  console.log(container.children.length);
-  console.log(container.scrollWidth);
-
   if (direction == "left") {
     scrollLeft();
   } else {

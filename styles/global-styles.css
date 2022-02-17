@@ -40,6 +40,7 @@ p {
 }
 
 .custom-overlay {
+  border: none;
   background-color: var(--background-overlay);
   box-shadow: 1px 1px 4px 0 rgba(160, 158, 158, 0.178);
   z-index: 3;

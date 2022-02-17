@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="styles/aboutme-styles.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="styles/contact.css">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <!--  Header -->
@@ -21,10 +22,9 @@
         ><span class="navicon"></span
       ></label>
       <ul class="menu">
-        <li><a href="#work">Our Work</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#careers">Careers</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">My Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact-container">Contact</a></li>
       </ul>
     </div>
 
@@ -34,10 +34,10 @@
         <div class="text-content-container">
           <h3>Hey, I'm Trevor Mickelson</h3>
           <h1>Ecommerce web developer</h1>
-          <form action="">
+          <form action="#contact-container">
             <input
               class="custom-overlay-green custom-button"
-              type="button"
+              type="submit"
               value="Contact me"
             />
           </form>
@@ -54,8 +54,7 @@
         <div id="info">
           <h1>My Services</h1>
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            eveniet cupiditate, aut quisquam nostrum accusamus!
+            Here you can check out the services I offer
           </h3>
         </div>
         <div id="cards">
@@ -63,35 +62,35 @@
             <img src="/assets/web-design.png" alt="Web design icon" />
             <h1>Web Design</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              quos exercitationem obcaecati illum error et.
+              I don't just set up any website. I ensure the website has a great
+              design, and user experience. User experience is everything!
             </p>
           </div>
 
           <div class="card-container custom-overlay">
-            <img src="/assets/web-design.png" alt="Web design icon" />
-            <h1>Web Design</h1>
+            <img src="/assets/product.png" alt="Product design icon" />
+            <h1>Product Design</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              quos exercitationem obcaecati illum error et.
+              I can implement all of the products you want to sell,
+              and give them any feature that you want!!
             </p>
           </div>
 
           <div class="card-container custom-overlay">
-            <img src="/assets/web-design.png" alt="Web design icon" />
-            <h1>Web Design</h1>
+            <img src="/assets/custom-work.png" alt="Custom work icon" />
+            <h1>Custom Work</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              quos exercitationem obcaecati illum error et.
+              Need something custom that themes don't offer? Not a problem, just
+              tell me your vision, and I'll make it a reality!
             </p>
           </div>
 
           <div class="card-container custom-overlay">
-            <img src="/assets/web-design.png" alt="Web design icon" />
-            <h1>Web Design</h1>
+            <img src="/assets/shopify.png" alt="Ecommerce icon" />
+            <h1>Ecommerce</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              quos exercitationem obcaecati illum error et.
+              Want an Ecommerce website for your business? Then look no further!
+              I'll will be setting up your website using the Shopify platform.
             </p>
           </div>
         </div>
@@ -102,8 +101,7 @@
         <div id="info">
           <h1>Portfolio</h1>
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            eveniet cupiditate, aut quisquam nostrum accusamus!
+            Check out some of my recent projects
           </h3>
         </div>
 
@@ -140,6 +138,31 @@
           </li>
         </ul>
       </div>
+
+      <!-- Contact -->
+      <form id="contact-container" action="https://formsubmit.co/formsubmit.wfagh@simplelogin.co" method="POST">
+        <h1>Contact</h1>
+        <label for="email"></label>
+        <input class="custom-overlay"
+          id="email"
+          type="email"
+          placeholder=" Email"
+          required
+          minlength="3"
+          maxlength="48"
+        />
+
+        <label for="text"></label>
+        <textarea 
+          id="text"
+          class="custom-overlay" 
+          placeholder=" How can I help you?"
+          rows = "5" cols = "60" 
+          name="test">
+       </textarea>
+
+        <button class="custom-button custom-overlay-green" type="submit">Send</button>
+      </form> 
     </div>
   </body>
 </html>
