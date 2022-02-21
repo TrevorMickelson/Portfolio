@@ -17,7 +17,6 @@
 }
 
 #services .card-container {
-  height: 24vh;
   width: 100%;
   border-radius: 20px;
   text-align: center;
@@ -48,6 +47,7 @@
   }
 
   #services .card-container {
+    height: 15rem;
     width: 40%;
   }
 }
