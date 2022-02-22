@@ -1,71 +1,56 @@
 #portfolio {
-  max-width: 500px;
-  margin-top: 9rem;
-}
-
-#portfolio #info {
-  width: 50%;
-  text-align: center;
-  margin: 1rem auto;
-}
-
-#portfolio ul {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  overflow: hidden;
-  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+  margin: 7rem;
+  text-align: center;
 }
 
-.slide > img {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
+#portfolio .video-container,
+#portfolio p {
+  max-width: 40rem;
 }
 
-.carousel-button {
-  background: none;
-  border: none;
-  font-size: 4rem;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  border-radius: 0.25rem;
-  padding: 0 0.5rem;
-  position: absolute;
-  margin: 12rem 0;
+#portfolio .video-container {
+  height: 50vh;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
 }
 
-.next {
-  margin-left: 26.8rem;
+#portfolio iframe {
+  height: 100%;
+  width: 100%;
 }
 
-.carousel-button:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
+#portfolio div:nth-child(3) {
+  margin-top: 5rem;
 }
 
-.carousel-button:active {
-  background-color: rgba(0, 0, 0, 0.329);
+#portfolio .text p {
+  margin-top: 1rem;
 }
 
-@media (min-width: 48em) {
-  #portfolio {
-    max-width: 1200px;
-    height: 1000px;
-    margin-top: 9rem;
+@media (min-width: 80rem) {
+  #portfolio p {
+    max-width: 20rem;
   }
 
-  .carousel-button {
-    margin: 21.5rem 0;
+  #portfolio .video-container {
+    flex-direction: row;
+    max-width: 80rem;
   }
 
-  .next {
-    margin-left: 70.6rem;
+  #portfolio div:nth-child(3) {
+    flex-direction: row-reverse;
   }
 
-  .slide img {
-    width: 1200px;
-    height: 750px;
+  #portfolio iframe {
+    width: 60%;
   }
 }

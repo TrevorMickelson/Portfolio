@@ -1,6 +1,5 @@
 #about-me {
-  width: fit-content;
-  height: 45rem;
+  max-width: 90rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,18 +9,19 @@
 }
 
 #about-me .text-content-container > * {
+  max-width: 40rem;
   margin-top: 1rem;
 }
 
 #about-me .ball {
   height: 22rem;
   width: 22rem;
-  margin-top: 3rem;
   border-radius: 100%;
+  margin-top: 3rem;
   object-fit: cover;
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 85rem) {
   #about-me {
     flex-direction: row-reverse;
   }

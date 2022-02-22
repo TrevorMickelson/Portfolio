@@ -1,11 +1,11 @@
 #services {
-  width: 75%;
-  max-width: 90rem;
+  max-width: 80rem;
   margin-top: 6rem;
 }
 
 #services,
 #services #cards {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,10 @@
 
 #services .card-container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
   text-align: center;
   padding: 2rem;
@@ -39,7 +43,7 @@
   width: 50px;
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 80rem) {
   #services #cards {
     display: flex;
     flex-direction: row;
@@ -47,7 +51,7 @@
   }
 
   #services .card-container {
-    height: 15rem;
-    width: 40%;
+    height: 14rem;
+    width: 32%;
   }
 }

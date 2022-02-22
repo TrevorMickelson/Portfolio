@@ -23,6 +23,10 @@ body {
   background-color: var(--background);
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h3,
 p {
   font-weight: normal;
@@ -43,7 +47,7 @@ p {
   border: none;
   background-color: var(--background-overlay);
   box-shadow: 1px 1px 4px 0 rgba(160, 158, 158, 0.178);
-  z-index: 3;
+  z-index: 3px;
 }
 
 .custom-overlay-green {

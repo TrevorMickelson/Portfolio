@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/animation-styles.css" />
-    <link rel="stylesheet" href="styles/global-styles.css" />
-    <link rel="stylesheet" href="styles/header-styles.css" />
-    <link rel="stylesheet" href="styles/aboutme-styles.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/t.png" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about-me.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact.css" />
     <script src="script.js" defer></script>
-    <title>Portfolio</title>
+    <title>Trevor Mickelson | Portfolio</title>
   </head>
   <body>
     <!--  Header -->
@@ -28,17 +29,17 @@
       </ul>
     </div>
 
+    <!-- Out container (everything other than the header )-->
     <div id="outer-container">
       <!-- About me -->
       <div id="about-me">
         <div class="text-content-container">
           <h3>Hey, I'm Trevor Mickelson</h3>
           <h1>E-commerce web developer</h1>
-
-          <!-- -------------- -->
-          <!-- My goal is to create beautiful ecommerce
-          websites for blah blah (own words) -->
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aut veniam eius nesciunt, nulla aliquam?</h3>
+          <p>
+            My goal is to make amazing e-commerce websites, and take your
+            business to the next level.
+          </p>
           <form action="#contact-container">
             <input
               class="custom-overlay-green custom-button"
@@ -58,60 +59,57 @@
       <div id="services">
         <div id="info">
           <h1>My Services</h1>
-          <h3>
-            Here you can check out the services I offer
-          </h3>
+          <h3>Here you can check out the services I offer</h3>
         </div>
         <div id="cards">
           <div class="card-container custom-overlay">
             <img src="/assets/shopify.png" alt="Shopfiy icon" />
-            <h1>Shopify store setup</h1>
+            <h2>Shopify store setup</h2>
             <p>
-              Get your E-commerce site online. I'll create and 
-              design your website for you. Just tell me your vision, 
-              and I'll make it a reality!
+              Get your E-commerce site online. I'll create and design your
+              website for you. Just tell me your vision, and I'll make it a
+              reality!
             </p>
           </div>
           <div class="card-container custom-overlay">
             <img src="/assets/upgrade.png" alt="Shopfiy icon" />
-            <h1>Shopify 2.0 Upgrade</h1>
+            <h2>Shopify 2.0 Upgrade</h2>
             <p>
-              This will allow you to obtain all the newest
-              2.0 features that Shopify offers.
+              This will allow you to obtain all the newest 2.0 features that
+              Shopify offers.
             </p>
           </div>
           <div class="card-container custom-overlay">
             <img src="/assets/data.png" alt="Data icon" />
-            <h1>Migration to Shopify</h1>
+            <h2>Migration to Shopify</h2>
             <p>
-              Move your current E-commerce website over to 
-              Shopify. I'll take care of the heavy lifting :)
+              Move your current E-commerce website over to Shopify. I'll take
+              care of the heavy lifting :)
             </p>
           </div>
           <div class="card-container custom-overlay">
             <img src="/assets/theme.png" alt="Theme icon" />
-            <h1>Shopify Theme Customizations</h1>
+            <h2>Shopify Theme Edits</h2>
             <p>
-              Don't like aspects of your current theme? That's not 
-              a problem. I'll custom code parts of your theme 
-              to make your vision a reality.
+              Don't like aspects of your current theme? That's not a problem.
+              I'll custom code parts of your theme to make your vision a
+              reality.
             </p>
           </div>
           <div class="card-container custom-overlay">
             <img src="/assets/search-engine.png" alt="Optimize icon" />
-            <h1>Shopify Site Optimizations</h1>
+            <h2>Shopify Site Optimizing</h2>
             <p>
-              I will improve the speed of your website, 
-              conversion rates, and your position on 
-              search engines.
+              I will improve the speed of your website, conversion rates, and
+              your position on search engines.
             </p>
           </div>
           <div class="card-container custom-overlay">
             <img src="/assets/store.png" alt="Store icon" />
-            <h1>Shopify Store Owner Training</h1>
+            <h2>Shopify Store Owner Training</h2>
             <p>
-              I will teach you the basics of Shopify so that
-              you won't always have to rely on a developer.
+              I will teach you the basics of Shopify so that you won't always
+              have to rely on a developer.
             </p>
           </div>
         </div>
@@ -121,69 +119,67 @@
       <div id="portfolio">
         <div id="info">
           <h1>Portfolio</h1>
-          <h3>
-            Check out some of my recent projects
-          </h3>
+          <h3>Check out some of my recent projects</h3>
         </div>
-
-        <button type="button" class="carousel-button prev" onclick="slide ('left')">&#8656</button>
-        <button type="button" class="carousel-button next" onclick="slide ('right')">&#8658</button>
-
-        <ul id="carousel">
-          <li class="slide">
-            <img src="assets/clothes_main.png" alt="Clothes Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/clothes_example.png" alt="Clothes Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/clothes_dope.png" alt="Clothes Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/project_2.png" alt="Project 2 Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/project_3_main.png" alt="Project 3 Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/project_3_second.png" alt="Project 3 Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/mcaim_main.png" alt="Mcaim Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/mcaim_second.png" alt="Mcaim Image" />
-          </li>
-          <li class="slide">
-            <img src="assets/contact_example.png" alt="Contact Page" />
-          </li>
-        </ul>
+        <div class="video-container">
+          <iframe
+            src="https://www.loom.com/embed/ffa89be77fcd49589484b599bf508ba5"
+            frameborder="0"
+          ></iframe>
+          <div class="text">
+            <h2>Text1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              illo quisquam eveniet deserunt. Facere voluptatibus, adipisci iure
+              modi similique aliquid!
+            </p>
+          </div>
+        </div>
+        <div class="video-container">
+          <iframe
+            src="https://www.loom.com/embed/ffa89be77fcd49589484b599bf508ba5"
+            frameborder="0"
+          ></iframe>
+          <div class="text">
+            <h2>Text2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              illo quisquam eveniet deserunt. Facere voluptatibus, adipisci iure
+              modi similique aliquid!
+            </p>
+          </div>
+        </div>
       </div>
 
       <!-- Contact -->
-      <form id="contact-container" action="https://formsubmit.co/formsubmit.wfagh@simplelogin.co" method="POST">
+      <form
+        id="contact-container"
+        action="https://formsubmit.co/formsubmit.wfagh@simplelogin.co"
+        method="POST"
+      >
         <h1>Contact</h1>
         <label for="email"></label>
-        <input class="custom-overlay"
+        <input
+          class="custom-overlay"
           id="email"
           type="email"
-          placeholder=" Email"
+          placeholder="Email"
           required
           minlength="3"
           maxlength="48"
         />
 
         <label for="text"></label>
-        <textarea 
+        <textarea
           id="text"
-          class="custom-overlay" 
-          placeholder=" How can I help you?"
-          rows = "5" cols = "60" 
-          name="test">
-       </textarea>
+          class="custom-overlay"
+          placeholder="How can I help you?"
+        ></textarea>
 
-        <button class="custom-button custom-overlay-green" type="submit">Send</button>
-      </form> 
+        <button class="custom-button custom-overlay-green" type="submit">
+          Send
+        </button>
+      </form>
     </div>
   </body>
 </html>
