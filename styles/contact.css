@@ -16,8 +16,8 @@
 #text,
 #contact-container button {
   width: 100%;
-  max-width: 30rem;
-  height: 6vh;
+  max-width: 40rem;
+  height: 7.5vh;
 }
 
 #email,
@@ -29,7 +29,7 @@
 }
 
 #text {
-  height: 14vh;
+  height: 16.5vh;
   resize: none;
 
   /* 
@@ -49,4 +49,5 @@
 #contact-container button {
   margin-top: 0.5rem;
   margin-bottom: 3rem;
+  border-radius: 35px;
 }
