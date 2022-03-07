@@ -28,7 +28,8 @@
   width: 100%;
 }
 
-#portfolio div:nth-child(3) {
+#portfolio div:nth-child(3),
+#portfolio div:nth-child(4) {
   margin-top: 5rem;
 }
 
