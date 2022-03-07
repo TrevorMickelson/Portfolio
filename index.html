@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles/about-me.css" />
     <link rel="stylesheet" href="styles/services.css" />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <link rel="stylesheet" href="styles/contact.css" />
     <script src="script.js" defer></script>
     <title>Trevor Mickelson | Portfolio</title>
   </head>
@@ -25,7 +24,6 @@
       <ul class="menu">
         <li><a href="#services">My Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact-container">Contact</a></li>
       </ul>
     </div>
 
@@ -112,13 +110,14 @@
           </div>
         </div>
       </div>
+
       <!-- Portfolio -->
       <div id="portfolio">
         <div id="info">
           <h1>Portfolio</h1>
           <h3>Check out some of my projects</h3>
         </div>
-        <div class="video-container">
+        <div class="display-container">
           <iframe
             src="https://www.youtube.com/embed/7AUttemfzHc"
             frameborder="0"
@@ -133,7 +132,7 @@
             </p>
           </div>
         </div>
-        <div class="video-container">
+        <div class="display-container">
           <iframe
             src="https://www.youtube.com/embed/qaMWNdfkpG4"
             frameborder="0"
@@ -146,7 +145,7 @@
             </p>
           </div>
         </div>
-        <div class="video-container">
+        <div class="display-container">
           <iframe
             src="https://www.youtube.com/embed/cSRMXOu8gEk"
             frameborder="0"
@@ -159,37 +158,16 @@
             </p>
           </div>
         </div>
+        <div class="display-container">
+          <a href="https://github.com/TrevorMickelson">
+            <img src="/assets/github.png" alt="Github icon" />
+          </a>
+          <div class="text">
+            <h2>Github</h2>
+            <p>Here you can check out the rest of my projects on github.</p>
+          </div>
+        </div>
       </div>
-
-      <!-- Contact -->
-      <form
-        id="contact-container"
-        action="https://formsubmit.co/formsubmit.wfagh@simplelogin.co"
-        method="POST"
-      >
-        <h1>Contact</h1>
-        <label for="email"></label>
-        <input
-          class="custom-overlay"
-          id="email"
-          type="email"
-          placeholder="Email"
-          required
-          minlength="3"
-          maxlength="48"
-        />
-
-        <label for="text"></label>
-        <textarea
-          id="text"
-          class="custom-overlay"
-          placeholder="How can I help you?"
-        ></textarea>
-
-        <button class="custom-button custom-overlay-green" type="submit">
-          Send
-        </button>
-      </form>
     </div>
   </body>
 </html>

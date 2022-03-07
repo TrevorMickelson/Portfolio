@@ -7,12 +7,12 @@
   text-align: center;
 }
 
-#portfolio .video-container,
+#portfolio .display-container,
 #portfolio p {
   max-width: 40rem;
 }
 
-#portfolio .video-container {
+#portfolio .display-container {
   height: 50vh;
   width: 75%;
   display: flex;
@@ -29,7 +29,8 @@
 }
 
 #portfolio div:nth-child(3),
-#portfolio div:nth-child(4) {
+#portfolio div:nth-child(4),
+#portfolio div:nth-child(5) {
   margin-top: 5rem;
 }
 
@@ -42,12 +43,13 @@
     max-width: 20rem;
   }
 
-  #portfolio .video-container {
+  #portfolio .display-container {
     flex-direction: row;
     max-width: 80rem;
   }
 
-  #portfolio div:nth-child(3) {
+  #portfolio div:nth-child(3),
+  #portfolio div:nth-child(5) {
     flex-direction: row-reverse;
   }
 
